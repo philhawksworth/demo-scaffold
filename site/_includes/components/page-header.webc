@@ -1,0 +1,51 @@
+<header webc:root="override">
+  <a href="/">home</a>
+  <ul class="nav">
+    <li><a href="/">pages</a></li>
+    <li><a href="/">in</a></li>
+    <li><a href="/">this</a></li>
+    <li><a href="/">example</a></li>
+    <li><a href="/about">site</a></li>
+  </ul>
+</header>
+
+<style>  
+  header {
+    display:flex;
+    padding: 2rem 2rem 0.5rem;
+    margin:0 auto;
+    line-height:1;
+    justify-content: space-between;
+    gap: 2rem;
+    max-width: 600px;
+  }
+  header h1 {  
+    font-size: 0.9rem;
+    margin:0;
+  }
+
+  .nav {
+    list-style:none;
+    margin:0;
+    padding:0;
+  }
+  .nav li {
+    display:inline-block;
+    margin-right:.5rem;
+  }
+  .nav li:last-child {
+    padding-right:0rem;
+  }
+
+  header a:link,
+  header a:visited {
+    color: var(--text-color-mild);
+    text-decoration:none;
+  
+  }
+  header a:hover,
+  header a:focus {
+    color: var(--accent-color);
+  }
+
+</style>

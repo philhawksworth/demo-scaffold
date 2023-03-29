@@ -1,0 +1,21 @@
+---
+layout: "layouts/page.webc"
+title: About
+---
+
+<summary-card
+  @title="Title in this card"
+  @tease="Some <b>html</b> is ok in this little teaser section"
+  @url="/"
+></summary-card>
+
+<summary-card
+  @title="This card is all title and no summary"
+  @url="/some"
+></summary-card>
+
+
+
+
+
+

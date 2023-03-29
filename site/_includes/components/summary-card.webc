@@ -1,0 +1,36 @@
+<div class="card" webc:root="override">
+  <h2 @text="title">title</h2>
+  <p @html="content"></p>
+  <div class="cta-links">
+    <a webc:if="cta" :href="url" @text=cta>Read more</a>
+  </div>
+</div>
+
+
+<style webc="scoped">
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  .card {
+    border-radius: var(--radius);
+    box-shadow: 0 0 8px 3px hsla(0,0%,0%,.1);
+    margin-bottom: 2rem;
+    padding:1em 3rem 2em;
+    text-align:left;
+  }
+
+  .highlight {
+    background: var(--colorCardGradient90);
+    background-size: 100% 10px;
+    background-repeat: no-repeat;
+  }
+
+  .cta-links {
+    text-align:right;
+    margin-top: 3rem;
+  }
+
+
+</style>

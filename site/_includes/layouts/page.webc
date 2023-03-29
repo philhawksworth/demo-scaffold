@@ -1,0 +1,9 @@
+---
+layout: "layouts/base.webc"
+title: "Fallback global tite"
+---
+
+<page-header></page-header>
+<h1 @text="title"></h1>
+<main @html="content"></main> 
+<page-footer></page-footer>

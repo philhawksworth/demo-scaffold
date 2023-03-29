@@ -1,0 +1,29 @@
+---
+layout: "layouts/page.webc"
+title: "home"
+---
+
+<p>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore dolorem nemo nostrum! Accusantium, ab nihil. Eius dolore, debitis, nisi vero rem optio dicta praesentium ipsum voluptas labore suscipit a eaque.
+</p>
+<p>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore dolorem nemo nostrum! Accusantium, ab nihil. Eius dolore, debitis, nisi vero rem optio dicta praesentium ipsum voluptas labore suscipit a eaque.
+</p>
+
+<summary-card class="highlight"
+  title="A highlight card"
+  content="Some <b>html</b> is ok in this content section"
+  cta="To the about page"
+  @url="/about"
+></summary-card>
+
+<summary-card
+  title="A regular card"
+  content="Some <b>html</b> is ok in this content section. the CTA link isnoptional, and this card doesn't havce one."
+></summary-card>
+
+
+
+
+
+
