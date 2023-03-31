@@ -1,6 +1,11 @@
 <header webc:root="override">
-  <a href="/">home</a>
+      <a href="https://www.netlify.com" class="icon" aria-label="Deployed with Netlify">							
+      <svg role="img" aria-hidden="true" focusable="false" class="icon netlify-logo">
+        <use xlink:href="/img/icons.svg#netlify-logo-full-small"></use>
+      </svg>
+    </a>  
   <ul class="nav">
+    <li><a href="/">home</a></li>
     <li><a href="/about">about</a></li>
     <li><a href="/styleguide">styleguide</a></li>
   </ul>

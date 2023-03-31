@@ -59,14 +59,15 @@
     text-decoration:underline;
   }
 
-  footer .netlify-logo {
-    --_netlify-logo-lines-color: var(--teal-300);
-    --_netlify-logo-text-color: var(--accent-color);
-    height: 40px;
-    width: 100px;
+    footer .netlify-logo {
+    --_netlify-logo-lines-color: var(--neutral-dark-200);
+    --_netlify-logo-text-color: var(--neutral-dark-400);
+
   }
   footer a:hover .netlify-logo,
   footer a:focus .netlify-logo {
     --_netlify-logo-lines-color: var(--teal-400);
+    --_netlify-logo-text-color: var(--accent-color);
   }
+
 </style>

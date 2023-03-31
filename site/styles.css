@@ -81,3 +81,15 @@ code {
   font-size: 0.9em;
   padding: 0.2em 0.5em;
 }
+
+
+.netlify-logo {
+  --_netlify-logo-lines-color: var(--teal-300);
+  --_netlify-logo-text-color: var(--accent-color);
+  height: 40px;
+  width: 100px;
+}
+a:hover .netlify-logo,
+a:focus .netlify-logo {
+  --_netlify-logo-lines-color: var(--teal-400);
+}
