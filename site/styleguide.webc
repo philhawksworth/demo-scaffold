@@ -37,14 +37,14 @@ title: "Styleguide"
   <h4>Example</h4>
   <summary-card
     title="A regular card"
-    content="Some <b>html</b> is ok in this content section. the CTA link isnoptional, and this card doesn't havce one."
+    content="Some <b>html</b> is ok in this content section. the CTA link is optional, and this card doesn't have one."
   ></summary-card>
   
   <h4>Usage</h4>
   <code-example>
   &lt;summary-card
     title=&quot;A regular card&quot;
-    content=&quot;Some &lt;b&gt;html&lt;/b&gt; is ok in this content section. the CTA link isnoptional, and this card doesn&#39;t havce one.&quot;
+    content=&quot;Some &lt;b&gt;html&lt;/b&gt; is ok in this content section. the CTA link is optional, and this card doesn&#39;t have one.&quot;
   &gt;&lt;/summary-card&gt;
   </code-example>
 </section>
