@@ -1,11 +1,8 @@
 <header webc:root="override">
   <a href="/">home</a>
   <ul class="nav">
-    <li><a href="/">pages</a></li>
-    <li><a href="/">in</a></li>
-    <li><a href="/">this</a></li>
-    <li><a href="/">example</a></li>
-    <li><a href="/about">site</a></li>
+    <li><a href="/about">about</a></li>
+    <li><a href="/styleguide">styleguide</a></li>
   </ul>
 </header>
 

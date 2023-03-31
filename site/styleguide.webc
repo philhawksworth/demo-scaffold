@@ -1,0 +1,123 @@
+---
+layout: "layouts/page.webc"
+title: "Styleguide"
+---
+
+<p>
+  Listing all avaiable components and provising guidance on typography and other low-level formatting.
+</p>
+
+
+<h2>Typography</h2>
+
+<h1>heading level 1</h1>
+<h2>heading level 2</h2>
+<h3>heading level 3</h3>
+<h4>heading level 4</h4>
+<p>
+  Standard content body text style.
+</p>
+<p>
+ Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quibusdam quaerat iusto fugiat voluptates iure quae cum, minima ea corporis natus similique quia aspernatur impedit fugit doloribus quas totam rem?
+</p>
+<p>
+  Text can include <code>inline code style</code> with the <code>code</code> element
+</p>
+<p>
+  Text can also include <a href="#">hypertext links</a>. This is the web, after all.
+</p>
+
+<h2>Cards</h2>
+<section>
+  <h3>Summary card</h3>
+  <p>
+    Encapsualte a small message or summary info worthy of special attention
+  </p>
+
+  <h4>Example</h4>
+  <summary-card
+    title="A regular card"
+    content="Some <b>html</b> is ok in this content section. the CTA link isnoptional, and this card doesn't havce one."
+  ></summary-card>
+  
+  <h4>Usage</h4>
+  <code-example>
+  &lt;summary-card
+    title=&quot;A regular card&quot;
+    content=&quot;Some &lt;b&gt;html&lt;/b&gt; is ok in this content section. the CTA link isnoptional, and this card doesn&#39;t havce one.&quot;
+  &gt;&lt;/summary-card&gt;
+  </code-example>
+</section>
+
+<section>
+  <h3>Summary card with highlight</h3>
+  <p>
+    Used as to indicate a primary message or give extra emphasisi to the content of the card amoungst other cards on display.
+  </p>
+
+  <h4>Example</h4>
+  <summary-card class="highlight"
+    title="A highlight card"
+    content="Some <b>html</b> is ok in this content section"
+    cta="To the about page"
+    @url="/about"
+  ></summary-card>
+  
+  <h4>Usage</h4>
+  <code-example>
+  &lt;summary-card class=&quot;highlight&quot;
+    title=&quot;A highlight card&quot;
+    content=&quot;Some &lt;b&gt;html&lt;/b&gt; is ok in this content section&quot;
+    cta=&quot;To the about page&quot;
+    @url=&quot;/about&quot;
+  &gt;&lt;/summary-card&gt;
+  </code-example>
+</section>
+
+
+<h2>Buttons and Calls to Action</h2>
+<section>
+  <h3>CTA button</h3>
+  
+  <h4>Example</h4>
+  <cta-button
+    url="/some-url"
+  >Button text</cta-button>
+
+  <h4>Usage</h4>
+  <code-example>
+    &lt;cta-button
+      url=&quot;/some-url&quot;
+    &gt;Button text&lt;/cta-button&gt;
+  </code-example>
+</section>
+
+<section>
+  <h3>CTA button - ghost</h3>
+  
+  <h4>Example</h4>
+  <cta-button class="ghost"
+    url="/some-url"
+  >Button text</cta-button>
+
+  <h4>Usage</h4>
+  <code-example>
+  &lt;cta-button class=&quot;ghost&quot;
+    url=&quot;/some-url&quot;
+  &gt;Button text&lt;/cta-button&gt;
+  </code-example>
+</section>
+
+<h2>Code and preformatted text</h2>
+
+<code-example language="js">
+eleventyConfig.addPlugin(pluginWebc, {
+  components: "site/_includes/components/**/*.webc"
+});
+</code-example>
+
+
+
+
+
+

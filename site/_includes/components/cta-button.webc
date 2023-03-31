@@ -1,0 +1,45 @@
+
+<a webc:root="override"
+  class="call-to-action" 
+  type="button"
+  :href="url" 
+  >
+  <span><slot>Fallback button text<slot></span>
+</a>
+
+
+<style>
+  a.call-to-action:link,
+  a.call-to-action:visited {
+    font-family: var(--font-headings);
+    background-color: var(--blue-700);
+    color: var(--page-color);
+    font-size: 1em;
+    font-weight: 700;
+    border-radius: var(--radius-tight);
+    border: 1px var(--blue-700) solid;
+    padding: 0.5em 1.5em;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color,border-color;
+    transition-duration: .2s;
+    outline-offset: 3px;
+    -webkit-font-smoothing: antialiased;
+  }
+  a.call-to-action:hover,
+  a.call-to-action:focus {
+    background-color: var(--blue-800);
+    border-color: var(--blue-800);
+  }
+
+  a.ghost:link,
+  a.ghost:visited {
+    background-color: var(--page-color);
+    color: var(--blue-700);
+  }
+  a.ghost:hover,
+  a.ghost:focus {
+    color: var(--blue-800);
+  }
+</style>

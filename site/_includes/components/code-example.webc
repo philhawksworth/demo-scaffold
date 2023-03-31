@@ -1,0 +1,21 @@
+<code webc:root="override" class="code-example">
+<pre>
+  <slot>Fallback slot content</slot>
+</pre>
+</code>
+
+
+<style webc="scoped">
+  .code-example {
+    margin: 1rem 0 2rem;
+    padding: 0;
+  }
+  .code-example pre {
+    background-color: var(--color-dark-block);
+    color: #eee;
+    border-radius:var(--radius-tight);
+    padding: 0.5rem 2rem;
+    font-size: 0.8rem;
+    overflow:auto;
+  }
+</style>

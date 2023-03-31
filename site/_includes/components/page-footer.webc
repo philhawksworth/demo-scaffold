@@ -31,7 +31,7 @@
   </section>
 </footer>
 
-<style>
+<style webc="scoped">
   footer {
     max-width: 600px;
     margin: 2rem auto 5rem;
@@ -43,13 +43,13 @@
     text-align:left;
   }
 
-  ul {
+  footer ul {
     margin:0;
     padding:0;
     list-style: none;
     line-height:1.9;
   }
-  section {
+  footer section {
     margin:0;
     padding:0;
   }

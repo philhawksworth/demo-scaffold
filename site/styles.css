@@ -6,13 +6,14 @@ html {
   --text-color:var(--neutral-dark-700);
   --text-color-mild:var(--neutral-dark-500);
   --text-color-loud:var(--neutral-dark-900);
+  --color-dark-block:var(--neutral-dark-600);
   --accent-color:var(--teal-800);
   --accent-color-mild:var(--teal-100);
   --accent-color-loud:var(--teal-300);
   --font-headings: Pacaembu, sans-serif;
   --font-content: Mulish, sans-serif;
   --radius: var(--border-radius-4);
-
+  --radius-tight: var(--border-radius-2);
   --colorCardGradient90: linear-gradient(90deg, var(--teal-200), var(--blue-700));
 }
 
@@ -39,7 +40,7 @@ a:focus {
   text-decoration:none;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   font-family: var(--font-headings);
 }
 
@@ -64,7 +65,18 @@ main {
   justify-content: center;
 }
 
+section {
+  margin: 0 0 5rem;
+}
+
 
 p {
   margin-bottom: 2em;
+}
+
+code {
+  background-color: #eee;
+  border-radius: var(--radius-tight); 
+  font-size: 0.9em;
+  padding: 0.2em 0.5em;
 }
