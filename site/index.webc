@@ -1,26 +1,26 @@
 ---
 layout: "layouts/page.webc"
-title: "Home"
+title: "Project Scaffold"
 ---
 
 <p>
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore dolorem nemo nostrum! Accusantium, ab nihil. Eius dolore, debitis, nisi vero rem optio dicta praesentium ipsum voluptas labore suscipit a eaque.
+  It would be helpful if we had an easy access to some commonly used UI componentents for demos and examples in a format that we could easily use them in a variety of frameworks and tools.
 </p>
 <p>
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore dolorem nemo nostrum! Accusantium, ab nihil. Eius dolore, debitis, nisi vero rem optio dicta praesentium ipsum voluptas labore suscipit a eaque.
+  Web components seem like a good way to achieve this. WebC allows us to use web component conventions to organise things as single file components and use them just in site generation, and progressivly enhance them if needs be.
 </p>
 
-<summary-card class="highlight"
-  title="A highlight card"
-  content="Some <b>html</b> is ok in this content section"
-  cta="To the about page"
-  @url="/about"
-></summary-card>
+<summary-card title="A handy card">
+  This sort of card may be handy for calling things out and making things visible
+</summary-card>
 
-<summary-card
-  title="A regular card"
-  content="Some <b>html</b> is ok in this content section. the CTA link isnoptional, and this card doesn't havce one."
-></summary-card>
+<summary-card title="Styles and components"
+  class="highlight"
+  cta="Explore the styleguide"
+  @url="/styleguide/">
+  More componentes and information on how to use them can be found in the <a href="/styleguide/">styleguide</a> page
+</summary-card>
+
 
 
 

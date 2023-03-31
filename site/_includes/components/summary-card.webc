@@ -1,6 +1,6 @@
 <div class="card" webc:root="override">
   <h2 @text="title">title</h2>
-  <p @html="content"></p>
+  <p><slot><slot></p>
   <div class="cta-links">
     <a webc:if="cta" :href="url" @text=cta>Read more</a>
   </div>

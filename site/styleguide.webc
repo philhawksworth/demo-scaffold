@@ -35,17 +35,15 @@ title: "Styleguide"
   </p>
 
   <h4>Example</h4>
-  <summary-card
-    title="A regular card"
-    content="Some <b>html</b> is ok in this content section. the CTA link is optional, and this card doesn't have one."
-  ></summary-card>
+  <summary-card title="A regular card">
+    Some <b>html</b> is ok in this content section. the CTA link is optional, and this card doesn't have one.
+  </summary-card>
   
   <h4>Usage</h4>
   <code-example>
-  &lt;summary-card
-    title=&quot;A regular card&quot;
-    content=&quot;Some &lt;b&gt;html&lt;/b&gt; is ok in this content section. the CTA link is optional, and this card doesn&#39;t have one.&quot;
-  &gt;&lt;/summary-card&gt;
+  &lt;summary-card title=&quot;A regular card&quot;&gt;
+    Some &lt;b&gt;html&lt;/b&gt; is ok in this content section. the CTA link is optional, and this card doesn&#39;t have one.
+  &lt;/summary-card&gt;
   </code-example>
 </section>
 
@@ -58,19 +56,21 @@ title: "Styleguide"
   <h4>Example</h4>
   <summary-card class="highlight"
     title="A highlight card"
-    content="Some <b>html</b> is ok in this content section"
     cta="To the about page"
     @url="/about"
-  ></summary-card>
+  >
+    Some <b>html</b> is ok in this content section
+  </summary-card>
   
   <h4>Usage</h4>
   <code-example>
   &lt;summary-card class=&quot;highlight&quot;
     title=&quot;A highlight card&quot;
-    content=&quot;Some &lt;b&gt;html&lt;/b&gt; is ok in this content section&quot;
     cta=&quot;To the about page&quot;
     @url=&quot;/about&quot;
-  &gt;&lt;/summary-card&gt;
+  &gt;
+    Some &lt;b&gt;html&lt;/b&gt; is ok in this content section
+  &lt;/summary-card&gt;
   </code-example>
 </section>
 
@@ -80,15 +80,15 @@ title: "Styleguide"
   <h3>CTA button</h3>
   
   <h4>Example</h4>
-  <cta-button
-    url="/some-url"
-  >Button text</cta-button>
+  <cta-button url="/some-url">
+    Button text
+  </cta-button>
 
   <h4>Usage</h4>
   <code-example>
-    &lt;cta-button
-      url=&quot;/some-url&quot;
-    &gt;Button text&lt;/cta-button&gt;
+    &lt;cta-button url=&quot;/some-url&quot;&gt;
+      Button text
+    &lt;/cta-button&gt;
   </code-example>
 </section>
 
@@ -96,15 +96,21 @@ title: "Styleguide"
   <h3>CTA button - ghost</h3>
   
   <h4>Example</h4>
-  <cta-button class="ghost"
+  <cta-button 
+    class="ghost"
     url="/some-url"
-  >Button text</cta-button>
+  >
+    Button text
+  </cta-button>
 
   <h4>Usage</h4>
   <code-example>
-  &lt;cta-button class=&quot;ghost&quot;
+  &lt;cta-button 
+    class=&quot;ghost&quot;
     url=&quot;/some-url&quot;
-  &gt;Button text&lt;/cta-button&gt;
+  &gt;
+    Button text
+  &lt;/cta-button&gt;
   </code-example>
 </section>
 
