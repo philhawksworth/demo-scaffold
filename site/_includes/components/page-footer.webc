@@ -1,46 +1,40 @@
 <footer webc:root="override">
   <section>
-    <ul>
-      <li><a href="">Built with Eleventy</a></li>
-      <li><a href="">Hosting by Netlify</a></li>
-      <li><a href="">Site roadmap</a></li>
-      <li><a href="">Site performance</a></li>
-      <li><a href="">Site code</a></li>
-    </ul>
+    <a href="https://www.netlify.com" class="icon" aria-label="Deployed with Netlify">							
+      <svg role="img" aria-hidden="true" focusable="false" class="icon netlify-logo">
+        <use xlink:href="/img/icons.svg#netlify-logo-full-small"></use>
+      </svg>
+    </a>  
   </section>
   <section>
     <ul>
       <li><a href="/">Home</a></li>
-      <li><a href="/blog/">Blog</a></li>
-      <li><a href="/notes/">Notes</a></li>
-      <li><a href="/speaking/">Speaking</a></li>
-      <li><a href="">About</a></li>
-      <li><a href="">Feeds</a></li>
-      <li><a href="">Search</a></li>
+      <li><a href="/about/">About</a></li>
+      <li><a href="/styleguide/">Styleguide</a></li>
     </ul>
   </section>
   <section>
     <ul>
-      <li><a href="">Mastodon</a></li>
-      <li><a href="">GitHub</a></li>
-      <li><a href="">Notist</a></li>
-      <li><a href="">Flickr</a></li>
-      <li><a href="">LinkedIn</a></li>
-      <li><a href="">Twitter</a></li>
+      <li><a href="https://www.netlify.com/">Deploys by Netlify</a></li>
+      <li><a href="https://www.11ty.dev/docs/languages/webc/">Built with Eleventy and WebC</a></li>
+      <li><a href="https://github.com/philhawksworth/demo-scaffold">Site code repository</a></li>
     </ul>
   </section>
 </footer>
 
-<style webc="scoped">
+<style>
   footer {
     max-width: 600px;
-    margin: 2rem auto 5rem;
+    margin: 5rem auto 5rem;
+    padding-top:3rem;
     font-size:0.9rem;
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: flex-start;
     gap:2rem 5rem;
     text-align:left;
+    border-top: solid 1px var(--color-hint);
   }
 
   footer ul {
@@ -58,11 +52,21 @@
   footer a:visited {
     color: var(--text-color-mild);
     text-decoration:none;
-  
   }
   footer a:hover,
   footer a:focus {
     color: var(--accent-color);
     text-decoration:underline;
+  }
+
+  footer .netlify-logo {
+    --_netlify-logo-lines-color: var(--teal-300);
+    --_netlify-logo-text-color: var(--accent-color);
+    height: 40px;
+    width: 100px;
+  }
+  footer a:hover .netlify-logo,
+  footer a:focus .netlify-logo {
+    --_netlify-logo-lines-color: var(--teal-400);
   }
 </style>

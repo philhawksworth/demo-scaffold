@@ -10,6 +10,7 @@ html {
   --accent-color:var(--teal-800);
   --accent-color-mild:var(--teal-100);
   --accent-color-loud:var(--teal-300);
+  --color-hint:var(--neutral-light-200);
   --font-headings: Pacaembu, sans-serif;
   --font-content: Mulish, sans-serif;
   --radius: var(--border-radius-4);
